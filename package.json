@@ -1,0 +1,93 @@
+{
+  "name": "@digidem/wcmc-mapeo-mobile-intro",
+  "version": "0.1.0",
+  "description": "Intro screens for Mapeo Mobile for the WCMC ICCA registration app",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "react-native": "src/index.tsx",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest",
+    "typescript": "tsc --noEmit",
+    "lint": "eslint --ext .js,.ts,.tsx .",
+    "prepare": "bob build",
+    "example": "yarn --cwd example",
+    "bootstrap": "yarn example && yarn"
+  },
+  "keywords": [
+    "mapeo",
+    "wcmc"
+  ],
+  "repository": "https://github.com/digidem/wcmc-mapeo-mobile-intro",
+  "author": "Digital Democracy <gmaclennan@digital-democracy.org> (https://www.digital-democracy.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digidem/wcmc-mapeo-mobile-intro/issues"
+  },
+  "homepage": "https://github.com/digidem/wcmc-mapeo-mobile-intro#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^8.3.4",
+    "@react-native-community/bob": "^0.9.7",
+    "@react-native-community/eslint-config": "^0.0.7",
+    "@types/jest": "^25.1.2",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "0.61.10",
+    "@types/react-native-vector-icons": "^6.4.5",
+    "commitlint": "^8.3.4",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "expo-linear-gradient": "^8.0.0",
+    "husky": "^4.0.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "react": "~16.9.0",
+    "react-native": "~0.61.5",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-vector-icons": "^6.6.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "expo-linear-gradient": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": "*"
+  },
+  "jest": {
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/lib/"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "yarn lint && yarn typescript"
+    }
+  },
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "dependencies": {
+    "get-contrast-ratio": "^0.2.1",
+    "mdast-normalize-react-native": "^3.2.0",
+    "path": "^0.12.7",
+    "react-markdown": "^4.3.1",
+    "react-native-redash": "^9.6.0",
+    "react-native-tab-view": "^2.13.0",
+    "react-navigation-hooks": "^1.1.0",
+    "remark": "^11.0.2"
+  }
+}
