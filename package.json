@@ -8,7 +8,9 @@
   "react-native": "src/index.tsx",
   "files": [
     "src",
-    "lib"
+    "lib",
+    "assets",
+    "@types"
   ],
   "scripts": {
     "test": "jest",
