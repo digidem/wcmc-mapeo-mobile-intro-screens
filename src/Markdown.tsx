@@ -165,7 +165,11 @@ const renderers = {
     ),
 
   text: (props: { children: any }) =>
-    $(Text, { ...textProps, style: styles.text }, props.children),
+    $(
+      Text,
+      { ...textProps, style: styles.text },
+      props.children.split('\n').join(' ')
+    ),
 
   heading: (props: { children: any; level: 1 | 2 | 3 | 4 | 5 | 6 }) =>
     $(
