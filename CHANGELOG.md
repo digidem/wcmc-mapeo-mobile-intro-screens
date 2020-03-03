@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/digidem/wcmc-mapeo-mobile-intro/compare/v1.0.0...v1.0.1) (2020-03-03)
+
+
+### Bug Fixes
+
+* Include assets in published module ([ecc4723](https://github.com/digidem/wcmc-mapeo-mobile-intro/commit/ecc47238dfe99d3c02255092c8f09cc73efd7423))
+
 ## 1.0.0 (2020-03-03)
 
 
