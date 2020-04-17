@@ -23,19 +23,12 @@ For more information and case studies about how it is being used see: www.mapeo.
       'You can use Mapeo to collect data about an area your community is conserving. These are sometimes called ICCAs',
     moreLink: 'What is an ICCA?',
     moreText: `
-An ICCA is any area conserved and protected by a local community or indigenous
-people. If you register your community protected area with WCMC (the World
-Conservation Monitoring Centre), then it will be placed on a global database and
-map, allowing other institutions and international bodies to know about the work
-you are doing to preserve your territory and the environment.
-
+"Mapeo for ICCAs" is for indigenous peoples and local communities whose knowledge and practices result in the conservation of nature within an area or territory under their governance. Such territories and areas are often referred to as ‘ICCAs’.
 ICCAs have three key characteristics:
 
-1. The indigenous people or local community has a deep connection with their territory or area;
-2. The decisions about how the territory or area is managed are made by the indigenous people or local community;
-3. The management of the territory or area results in the conservation of biodiversity.
-
-Find out more about ICCAs, and the ICCA consortium see: www.iccaconsortium.org
+1. An indigenous people or local community has a close and profound relationship with its territory or area.
+2. Decisions about how to manage the territory or area are made primarily by the people or community.
+3. The people’s or community’s decisions and efforts lead to the conservation of biodiversity, ecological functions and associated cultural values, regardless of the primary objectives of management.
 `,
     image: require('../assets/drawkit-nature-man-colour-800px.png'),
   },
@@ -48,39 +41,13 @@ Find out more about ICCAs, and the ICCA consortium see: www.iccaconsortium.org
     moreLink: 'What is UNEP-WCMC and how will they use my data?',
     moreTitle: 'Use of Information',
     moreText: `
-If you are a member of an indigenous people or local community, you can choose
-to provide information about your conserved area (ICCA) to the UN Environment
-World Conservation Monitoring Centre (UNEP-WCMC). UNEP-WCMC manages information
-on ICCAs in order to demonstrate how important the contributions of indigenous
-peoples and local communities are for the conservation of our natural world.
+If you are a member of an indigenous people or local community with an ICCA, you can choose to provide information to the UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC). UNEP-WCMC manages information on ICCAs in order to demonstrate how important the contributions of indigenous peoples and local communities are for the conservation of our natural world. This information is stored in the global ICCA Registry (currently offline).
 
-Through the app, you can provide information on the outer boundary and location
-of your ICCA, alongside information on its basic characteristics. If you would
-also like to provide more in-depth information, photos, and links to further
-information, you can contact us to discuss sharing a case study through the ICCA
-Registry website.
+Through the the Mapeo Desktop app, you can provide information on the outer boundary and location of your ICCA, alongside information on its basic characteristics. No information will be sent to UNEP-WCMC until you decide to share it. If you would also like your ICCA to be online, you can contact us to discuss sharing a case study through the ICCA Registry website. This is an opportunity to provide more in-depth details, photos, and links to further information.
 
-Information is gathered through a series of questions that you can answer within
-Mapeo. No information will be sent to UNEP-WCMC until you decide to share it.
-The information you share will be added to a global registry of ICCAs.
+Contact us via email: iccaregistry@unep-wcmc.org
 
-If one of the main objectives of the ICCA is to conserve nature you can also
-choose to include your information in the World Database on Protected Areas
-(WDPA). This differs from the ICCA Registry because it stores information on
-many different conservation measures, including those managed by governments,
-private organisations and individuals, and indigenous peoples and local
-communities. This database is widely-used by people around the world to help
-them make decisions about how land and waters are managed.
-
-By providing information to these databases, communities will help the
-international community to appreciate the vital connection between indigenous
-peoples, local communities and biodiversity conservation. It also helps people
-around the world have an awareness of  ICCAs when they make decisions.
-
-However, communities should also consider whether they might face challenges as
-a result of making their information public. More information on potential
-benefits, and important issues to consider, is available at:
-www.iccaregistry.org/en/participate/benefits-and-considerations
+When communities provide information to the ICCA Registry, they help the international community to appreciate the vital connection between indigenous peoples, local communities and biodiversity conservation. It also helps people around the world have an awareness of ICCAs when they make decisions. However, communities should also consider whether they might face challenges as a result of making their information public. More information on potential benefits, and important issues to consider, is available at http://www.iccaregistry.org/en/participate/benefits-and-considerations.
 `,
   },
   {
@@ -106,10 +73,23 @@ www.iccaregistry.org/en/participate/benefits-and-considerations
   },
   {
     backgroundColor: '#f0a5dc',
-    title: 'Sync with Mapeo Desktop',
+    title: 'Draw your ICCA with Mapeo Desktop',
     description:
       'Back in your community you can sync your points with Mapeo Desktop to get them onto a laptop, and use them to draw the ICCA boundary.',
     image: require('../assets/mapeo-sync-screen.png'),
+    moreLink: 'What to do next?',
+    moreTitle: 'What to do next?',
+    moreText: `
+Once you have the points you have collected with Mapeo Mobile synchronized with Mapeo Desktop you can use these points together with satellite imagery to draw the ICCA boundary.
+
+There are five stages to providing information:
+
+1. Start creating a digital boundary of the ICCA in Mapeo Desktop.
+2. Refine and agree upon the digital boundary. This should be done in participation with as many members of the community as possible, including different groups within the community.
+3. Complete the questions in Mapeo Desktop. This should be done in participation with as many members of the community as possible, including different groups within the community.
+4. Collectively agree upon the information to be shared with UNEP-WCMC.
+5. Share the agreed information with UNEP-WCMC.
+`,
   },
 
   {
@@ -121,16 +101,10 @@ www.iccaregistry.org/en/participate/benefits-and-considerations
     moreLink: 'How will UNEP-WCMC use your data?',
     moreTitle: 'Use of your data',
     moreText: `
-Before your information is made public a member of staff from UNEP WCMC will
-contact you with any questions. Your data will then be submitted for others to
-review. This is a peer-review process, and ensures that the information
-published in the databases is accurate. Peer-review is carried out by other
-indigenous peoples and/or local communities, and sometimes facilitating
-organisations, in the country where the ICCA is located.
+After you have provided information using Mapeo, the following steps will be taken before the information is made public:
 
-After review, your data will be published on xxxxxx.
-
-Something about intellectual property
+1. A member of staff from UNEP-WCMC will contact you with any questions;
+2. UNEP-WCMC will send the information for other indigenous peoples and/or local communities to review. This peer-review process is in place to ensure that the information published in the databases is accurate. Peer-review is carried out by other indigenous peoples and/or local communities, and sometimes facilitating organisations, in the country where the ICCA is located. The process is defined by the indigenous peoples and local communities involved, meaning that it works differently in different countries. If you would like to know whether a process has been developed in your country, please contact iccaregistry@unep-wcmc.org. We can also advise you on what to do if a process has not yet been developed in your country.
 `,
   },
   {
