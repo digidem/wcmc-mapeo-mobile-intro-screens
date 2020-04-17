@@ -1,6 +1,6 @@
 {
   "name": "@digidem/wcmc-mapeo-mobile-intro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Intro screens for Mapeo Mobile for the WCMC ICCA registration app",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",

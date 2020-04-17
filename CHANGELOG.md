@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/digidem/wcmc-mapeo-mobile-intro/compare/v1.0.1...v1.0.2) (2020-04-17)
+
+
+### Bug Fixes
+
+* **example:** Update launch screen ([77d30a0](https://github.com/digidem/wcmc-mapeo-mobile-intro/commit/77d30a0b986f42b867543c404ba60cdde55decae))
+* Update "more info" screens with text from UNEP-WCMC ([3ac9291](https://github.com/digidem/wcmc-mapeo-mobile-intro/commit/3ac9291e3a66ab511fc49e284876beb910835ca6))
+* Use "ICCA" and "UNEP-WCMC" on intro screens ([3d18c74](https://github.com/digidem/wcmc-mapeo-mobile-intro/commit/3d18c747dcf1c8e237ee8daab36a96c5f978ae8e))
+
 ### [1.0.1](https://github.com/digidem/wcmc-mapeo-mobile-intro/compare/v1.0.0...v1.0.1) (2020-03-03)
 
 
