@@ -13,12 +13,12 @@ Mapeo was developed by Digital Democracy in close collaboration with indigenous
 partners in the Amazon rainforest, including Achuar, Cocama, Harakbut, Kofan,
 Kichwa, Matsiguenka, Siekopai, Wapichana, Waorani and Yine peoples.
 
-For more information and case studies about how it is being used see: www.mapeo.world
+For more information and case studies about how it is being used see: www.mapeo.app
 `,
   },
   {
     backgroundColor: '#d1ffd8',
-    title: 'Community Conservation Areas',
+    title: 'ICCAs',
     description:
       'You can use Mapeo to collect data about an area your community is conserving. These are sometimes called ICCAs',
     moreLink: 'What is an ICCA?',
@@ -41,11 +41,11 @@ Find out more about ICCAs, and the ICCA consortium see: www.iccaconsortium.org
   },
   {
     backgroundColor: '#8ac9d1',
-    title: 'Register your ICCA with WCMC',
+    title: 'Register your ICCA with UNEP-WCMC',
     description:
       'Registering the area you are protecting will show the contribution that indigenous peoples and local communities make to conservation efforts.',
     image: require('../assets/undraw_connected_world_wuay.png'),
-    moreLink: 'What is WCMC and how will they use my data?',
+    moreLink: 'What is UNEP-WCMC and how will they use my data?',
     moreTitle: 'Use of Information',
     moreText: `
 If you are a member of an indigenous people or local community, you can choose
@@ -87,14 +87,14 @@ www.iccaregistry.org/en/participate/benefits-and-considerations
     backgroundColor: '#13467d',
     title: 'Collecting data',
     description:
-      'Head out to your community protected area and press the orange ＋ button to record a GPS point.',
+      'Head out to your ICCA and press the orange ＋ button to record a GPS point.',
     image: require('../assets/mapeo-map-screen.png'),
   },
   {
     backgroundColor: '#45228f',
     title: 'Choose a category',
     description:
-      'You can record points along the boundary of your conserved areas, or important points inside the area.',
+      'You can record points along the boundary of your ICCA, or important points inside the area.',
     image: require('../assets/wcmc-categories-screen.png'),
   },
   {
@@ -108,17 +108,17 @@ www.iccaregistry.org/en/participate/benefits-and-considerations
     backgroundColor: '#f0a5dc',
     title: 'Sync with Mapeo Desktop',
     description:
-      'Back in your community you can sync your points with Mapeo Desktop to get them onto a laptop, and use them to draw the conservation boundary.',
+      'Back in your community you can sync your points with Mapeo Desktop to get them onto a laptop, and use them to draw the ICCA boundary.',
     image: require('../assets/mapeo-sync-screen.png'),
   },
 
   {
     backgroundColor: '#a82c49',
-    title: 'Send to WCMC',
+    title: 'Send to UNEP-WCMC',
     description:
-      'Once your community has approved the area you can send it to WCMC. They will review it and then publish it online.',
+      'Once your community has approved the area you can send it to UNEP-WCMC. They will review it and then publish it online.',
     image: require('../assets/undraw_software_engineer_lvl5.png'),
-    moreLink: 'How will WCMC use your data?',
+    moreLink: 'How will UNEP-WCMC use your data?',
     moreTitle: 'Use of your data',
     moreText: `
 Before your information is made public a member of staff from UNEP WCMC will
@@ -140,7 +140,7 @@ Something about intellectual property
     image: require('../assets/undraw_High_five_u364.png'),
     moreLink: 'More help',
     moreText: `
-If you have any trouble contact WCMC: iccaregistry@unep-wcmc.org
+If you have any trouble contact UNEP-WCMC: iccaregistry@unep-wcmc.org
 `,
   },
 ]
