@@ -334,7 +334,9 @@ const IntroScreen = ({
               })
             }}
           >
-            <Text style={styles.buttonText}>{screen.moreLink}</Text>
+            <Text style={styles.buttonText} textBreakStrategy="balanced">
+              {screen.moreLink}
+            </Text>
           </Touchable>
         ) : (
           <View style={styles.spacer} />
@@ -381,6 +383,8 @@ const styles = StyleSheet.create({
   buttonText: {
     fontWeight: 'bold',
     color: 'blue',
+    textAlign: 'center',
+    lineHeight: 20,
   },
   spacer: {
     height: 10,
