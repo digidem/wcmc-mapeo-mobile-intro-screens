@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/digidem/wcmc-mapeo-mobile-intro/compare/v1.0.2...v1.0.3) (2020-04-20)
+
+
+### Bug Fixes
+
+* Fix formatting of more link textCenter and balance text across mutiple lines ([224f82d](https://github.com/digidem/wcmc-mapeo-mobile-intro/commit/224f82db2d3bbc83cb707a744c9721762c659b16))
+* Fix web and email links ([a90700a](https://github.com/digidem/wcmc-mapeo-mobile-intro/commit/a90700a191b114b716a42ff24413a50f11191123))
+
 ### [1.0.2](https://github.com/digidem/wcmc-mapeo-mobile-intro/compare/v1.0.1...v1.0.2) (2020-04-17)
 
 
