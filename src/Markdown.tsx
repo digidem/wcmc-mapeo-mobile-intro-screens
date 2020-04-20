@@ -5,7 +5,14 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import { createElement } from 'react'
-import { View, Text, StyleSheet, TextProperties, Platform } from 'react-native'
+import {
+  View,
+  Text,
+  StyleSheet,
+  TextProperties,
+  Platform,
+  Linking,
+} from 'react-native'
 const remark = require('remark')
 const ReactMarkdown = require('react-markdown')
 const normalizeForReactNative = require('mdast-normalize-react-native')
@@ -185,8 +192,15 @@ const renderers = {
     $(Text, { ...textProps, style: styles.strong }, props.children),
 
   link: (props: { children: any; href: string }) => {
-    console.log('Link', props)
-    return null
+    return $(
+      Text,
+      {
+        ...textProps,
+        style: styles.link,
+        onPress: () => Linking.openURL(props.href),
+      },
+      props.children
+    )
   },
 
   inlineCode: (props: { children: any }) =>

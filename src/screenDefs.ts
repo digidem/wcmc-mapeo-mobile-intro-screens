@@ -45,7 +45,7 @@ If you are a member of an indigenous people or local community with an ICCA, you
 
 Through the the Mapeo Desktop app, you can provide information on the outer boundary and location of your ICCA, alongside information on its basic characteristics. No information will be sent to UNEP-WCMC until you decide to share it. If you would also like your ICCA to be online, you can contact us to discuss sharing a case study through the ICCA Registry website. This is an opportunity to provide more in-depth details, photos, and links to further information.
 
-Contact us via email: iccaregistry@unep-wcmc.org
+Contact us via email: mailto:iccaregistry@unep-wcmc.org
 
 When communities provide information to the ICCA Registry, they help the international community to appreciate the vital connection between indigenous peoples, local communities and biodiversity conservation. It also helps people around the world have an awareness of ICCAs when they make decisions. However, communities should also consider whether they might face challenges as a result of making their information public. More information on potential benefits, and important issues to consider, is available at http://www.iccaregistry.org/en/participate/benefits-and-considerations.
 `,
@@ -104,7 +104,7 @@ There are five stages to providing information:
 After you have provided information using Mapeo, the following steps will be taken before the information is made public:
 
 1. A member of staff from UNEP-WCMC will contact you with any questions;
-2. UNEP-WCMC will send the information for other indigenous peoples and/or local communities to review. This peer-review process is in place to ensure that the information published in the databases is accurate. Peer-review is carried out by other indigenous peoples and/or local communities, and sometimes facilitating organisations, in the country where the ICCA is located. The process is defined by the indigenous peoples and local communities involved, meaning that it works differently in different countries. If you would like to know whether a process has been developed in your country, please contact iccaregistry@unep-wcmc.org. We can also advise you on what to do if a process has not yet been developed in your country.
+2. UNEP-WCMC will send the information for other indigenous peoples and/or local communities to review. This peer-review process is in place to ensure that the information published in the databases is accurate. Peer-review is carried out by other indigenous peoples and/or local communities, and sometimes facilitating organisations, in the country where the ICCA is located. The process is defined by the indigenous peoples and local communities involved, meaning that it works differently in different countries. If you would like to know whether a process has been developed in your country, please contact mailto:iccaregistry@unep-wcmc.org. We can also advise you on what to do if a process has not yet been developed in your country.
 `,
   },
   {
@@ -114,7 +114,7 @@ After you have provided information using Mapeo, the following steps will be tak
     image: require('../assets/undraw_High_five_u364.png'),
     moreLink: 'More help',
     moreText: `
-If you have any trouble contact UNEP-WCMC: iccaregistry@unep-wcmc.org
+If you have any trouble contact UNEP-WCMC: mailto:iccaregistry@unep-wcmc.org
 `,
   },
 ]
