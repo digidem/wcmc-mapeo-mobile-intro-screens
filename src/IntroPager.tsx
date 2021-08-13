@@ -70,6 +70,7 @@ const IntroPager = ({
   }, [onPressComplete, routes.length])
 
   return (
+    // @ts-ignore
     // eslint-disable-next-line react-native/no-inline-styles
     <Animated.View style={{ backgroundColor, flex: 1 }}>
       <TabView
