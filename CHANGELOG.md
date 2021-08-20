@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/digidem/wcmc-mapeo-mobile-intro/compare/v1.0.3...v1.1.0) (2021-08-20)
+
+
+### Features
+
+* add accessibility label & hint to nav button ([66f2ca7](https://github.com/digidem/wcmc-mapeo-mobile-intro/commit/66f2ca7d80ec7eedaf82221982a1a0afe5932d73))
+
 ### [1.0.3](https://github.com/digidem/wcmc-mapeo-mobile-intro/compare/v1.0.2...v1.0.3) (2020-04-20)
 
 
