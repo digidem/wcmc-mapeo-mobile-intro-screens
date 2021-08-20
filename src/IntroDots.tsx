@@ -79,6 +79,7 @@ const IntroDots = ({
             onPress={() => jumpTo(index)}
             hitSlop={DOT_HIT_SLOP}
             style={styles.dot}
+            accessible={false}
           />
         ))}
         <Animated.View
@@ -87,7 +88,12 @@ const IntroDots = ({
       </View>
 
       <Animated.View style={{ transform: [{ scale: buttonScale }] }}>
-        <TouchableOpacity onPress={onPressNext} style={styles.buttonContainer}>
+        <TouchableOpacity
+          onPress={onPressNext}
+          style={styles.buttonContainer}
+          accessibilityLabel="Continue"
+          accessibilityHint="Navigate to the next page"
+        >
           <View style={styles.buttonContainer}>
             <Animated.View style={[styles.nextButton, { opacity: isLast }]}>
               <Octicons name="check" color="rgba(0,0,0,0.8)" size={26} />
