@@ -3,9 +3,9 @@ import { ScreenType } from './IntroScreen'
 const wcmcScreens: ScreenType[] = [
   {
     backgroundColor: '#03a847',
-    title: 'Welcome to Mapeo',
+    title: 'Welcome to Mapeo for ICCAs',
     description:
-      'Mapeo is for mapping your territory and documenting evidence of deforestation and contamination.',
+      'Mapeo for ICCAs was developed specifically to support the mapping of ICCA boundaries and includes the option of submitting the ICCA information to UNEP-WCMC.',
     image: require('../assets/mapeo-logo-transparent.png'),
     moreLink: 'Who built Mapeo?',
     moreText: `
