@@ -50,7 +50,7 @@
     "react": "16.13",
     "react-native": "0.63.3",
     "react-native-gesture-handler": "~1.5.0",
-    "react-native-reanimated": "~1.4.0",
+    "react-native-reanimated": "~2.10.0",
     "react-native-vector-icons": "^6.6.0",
     "typescript": "^3.7.5"
   },
